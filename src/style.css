@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
@@ -924,4 +926,22 @@ footer {
   #button {
     margin: 30px;
   }
+}
+
+
+.mac-section{
+  position: relative;
+  margin-top: 40px;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica";
+}
+
+.vedio-section{
+  position: relative;
+  margin-top: 40px;
+
+}
+.vedio-section iframe{
+  border-radius: 22px;
+  height: 700px;
+  width: 80%;
 }
