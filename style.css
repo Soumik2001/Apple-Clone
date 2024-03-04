@@ -970,8 +970,9 @@ footer {
 
 
 .swiper {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 600px;
+  
 }
 
 .swiper-slide {
@@ -981,13 +982,23 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 23px;
 }
-
-.swiper-slide img {
-  display: block;
+.swiper-slide{
   width: 100%;
   height: 100%;
+}
+.swiper-slide img{
+  display: block;
+  width: 50%;
+  height: 94%;
   object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 23px;
+  
+  filter: drop-shadow(5px 5px 12px #535151);
 }
 
 .autoplay-progress {
@@ -1001,7 +1012,7 @@ footer {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: var(--swiper-theme-color);
+  color: #454545;
 }
 
 .autoplay-progress svg {
