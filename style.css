@@ -988,6 +988,10 @@ footer {
   filter: drop-shadow(5px 5px 12px #535151);
 }
 
+.slider-head{
+  filter: drop-shadow(1px -1px 1.4px #0c0c0c);
+
+}
 .autoplay-progress {
   position: absolute;
   right: 16px;
