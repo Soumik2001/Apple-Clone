@@ -989,7 +989,8 @@ footer {
 }
 
 .slider-head{
-  filter: drop-shadow(1px -1px 1.4px #0c0c0c);
+  filter:drop-shadow(1px 1px 2px #535151);
+  /* filter: drop-shadow(1px -1px 1.4px #0c0c0c); */
 
 }
 .autoplay-progress {
