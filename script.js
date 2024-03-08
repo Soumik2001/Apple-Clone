@@ -60,3 +60,15 @@ const progressCircle = document.querySelector(".autoplay-progress svg");
         }
       }
     });
+
+
+
+    // video scrolling animation
+
+  
+
+
+    // mac page coursel 
+
+    
+    
